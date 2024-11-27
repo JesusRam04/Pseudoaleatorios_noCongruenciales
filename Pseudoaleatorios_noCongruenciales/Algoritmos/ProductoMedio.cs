@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Jose de Jesus Ramirez Mendieta
+// Ricardo Kaleb Flores Alfonso
 namespace Pseudoaleatorios_noCongruenciales.Algoritmos
 {
     internal class ProductoMedio

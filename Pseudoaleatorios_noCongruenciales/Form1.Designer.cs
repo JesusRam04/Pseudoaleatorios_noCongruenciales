@@ -36,6 +36,8 @@
             textBox3 = new TextBox();
             label4 = new Label();
             button1 = new Button();
+            label5 = new Label();
+            label6 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -107,11 +109,31 @@
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(391, 286);
+            label5.Name = "label5";
+            label5.Size = new Size(220, 20);
+            label5.TabIndex = 8;
+            label5.Text = "Jose de Jesus Ramirez Mendieta";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(391, 311);
+            label6.Name = "label6";
+            label6.Size = new Size(200, 20);
+            label6.TabIndex = 9;
+            label6.Text = "Ricardo Kaleb Flores Alfonso";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label6);
+            Controls.Add(label5);
             Controls.Add(button1);
             Controls.Add(textBox3);
             Controls.Add(label4);
@@ -136,5 +158,7 @@
         private TextBox textBox3;
         private Label label4;
         private Button button1;
+        private Label label5;
+        private Label label6;
     }
 }
